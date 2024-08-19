@@ -1,27 +1,35 @@
 import './App.css';
 import React from "react";
-import {
-  BrowserRouter as Router,
-  
-  Route,
-  Link
-} from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './pages/Home';
+import { Nav } from './components/Nav';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Home />
+//   }
+// ])
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            {/* <Us /> */}
-          </Route>
-        </Switch>
-      </header>
+    <div className="">
+      <Nav />
+      
+      <Router>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+        </Route>
+      </Routes>
+    </Router>
+
+        
+    
     </div>
   );
 }
