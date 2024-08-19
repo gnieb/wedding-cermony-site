@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { Home } from './pages/Home';
 import Root from './routes/root';
+import ErrorPage from './error-page';
 
 
 
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-  
+    errorElement: <ErrorPage />,
 
   },
 ]);
