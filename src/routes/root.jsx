@@ -1,6 +1,9 @@
+import { Nav } from "../components/Nav";
+
 export default function Root() {
     return (
       <>
+      <Nav />
         <div id="sidebar">
           <h1>React Router Contacts</h1>
           <div>
