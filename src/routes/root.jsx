@@ -3,7 +3,7 @@ import MobileNav from "../components/MobileNav";
 
 export default function Root() {
     return (
-      <div className="bg-beigey w-screen">
+      <div className=" w-screen">
       <Nav />
       <MobileNav/>
         <div id="sidebar">
