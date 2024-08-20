@@ -1,9 +1,11 @@
 import { Nav } from "../components/Nav";
+import MobileNav from "../components/MobileNav";
 
 export default function Root() {
     return (
       <div className="bg-beigey w-screen">
       <Nav />
+      <MobileNav/>
         <div id="sidebar">
          
           <div>
