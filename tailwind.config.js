@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     colors : {
-      'lightO': '#'
+      'lightO': '#CD632E',
+      'darkO' : '#8C391E',
+      'beigey' : '#EEE6DC'
     },
     extend: {},
   },

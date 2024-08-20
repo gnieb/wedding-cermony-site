@@ -3,14 +3,14 @@
 
 export const Nav = () => {
     return (
-        <div className="flex justify-between">
+        <div className="hidden w-screen h-10 bg-darkO md:flex items-center flex-wrap justify-between">
             <div >
-                <a alt="" href="/about">Us</a>
+                <a className="m-5"  alt="" href="/about">Us</a>
                 
             </div>
             <div>
-                <a alt="" href="/timeline">The Timeline</a>
-                <a alt="" href="/bridalparty">The Bridal Party</a>
+                <a className="m-5" alt="" href="/timeline">The Timeline</a>
+                <a className="m-5" alt="" href="/bridalparty">The Bridal Party</a>
             </div>
         </div>
     );

@@ -2,10 +2,10 @@ import { Nav } from "../components/Nav";
 
 export default function Root() {
     return (
-      <>
+      <div className="bg-beigey w-screen">
       <Nav />
         <div id="sidebar">
-          <h1>React Router Contacts</h1>
+         
           <div>
             <form id="search-form" role="search">
               <input
@@ -41,6 +41,6 @@ export default function Root() {
           </nav>
         </div>
         <div id="detail"></div>
-      </>
+      </div>
     );
   }
