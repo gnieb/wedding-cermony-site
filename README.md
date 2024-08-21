@@ -1,5 +1,14 @@
 # Welcome to Our Wedding!
 
+
+## Pages - Planning
+in progress.
+- Grace and Noah
+- The Timeline?
+- The Ceremony? 
+- The Bridal Party 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
