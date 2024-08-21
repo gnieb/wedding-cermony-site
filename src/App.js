@@ -1,35 +1,41 @@
-// import './App.css';
 import React from "react";
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Nav } from './components/Nav';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MobileNav from "./components/MobileNav";
+import BridalParty from "./pages/BridalParty";
+import Us from "./pages/Us";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Root from "./routes/root";
+import ErrorPage from "./error-page";
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />
-//   }
-// ])
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+
+  },
+  {
+    path: "/aboutus",
+    element: <Us />
+  },
+  {
+    path: "/bridalparty",
+    element: <BridalParty />
+  }
+]);
+
 
 function App() {
   return (
     <div className="">
       <Nav />
-      
-      <Router>
-      <Routes>
-        <Route path="/" element={<Home />}>
-          
-          {/* <Route path="/about" element={<About />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
-        </Route>
-      </Routes>
-    </Router>
-
-        
-    
+      <MobileNav />
+      <RouterProvider router={router} />
     </div>
   );
 }
