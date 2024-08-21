@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 
 
 export default function MobileNav () {
@@ -11,7 +14,7 @@ export default function MobileNav () {
         <div className="bg-darkO flex md:hidden">
             <div className="" 
             onClick={handleMenu}>
-                MENU ICON
+                <FontAwesomeIcon className="p-2" icon={faBars} size="xl"/>
             </div>
 
         { open? 
