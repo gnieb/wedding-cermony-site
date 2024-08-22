@@ -12,8 +12,9 @@ export const Home = () => {
 
     return(
         <div className="flex">
-            <div className="font-scripty text-9xl">THE MCCLARINS</div>
-            <div className="w-1/2">
+            <div className="absolute z-50 w-screen font-scripty text-9xl">THE MCCLARINS</div>
+            <div className="absolute top-40 z-10 w-screen font-scripty text-9xl">THE MCCLARINS</div>
+            <div className="w-1/2 absolute z-20 right-10 top-20 ">
                 <img src={us1} alt="us" />
             </div>
         </div>
