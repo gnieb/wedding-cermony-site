@@ -8,14 +8,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from "./routes/root";
+// import Root from "./routes/root";
 import ErrorPage from "./error-page";
-
+import "../src/fonts/AnethaFaithSignaturecopy.otf"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Home />,
     errorElement: <ErrorPage />,
 
   },

@@ -7,7 +7,12 @@ module.exports = {
       'darkO' : '#8C391E',
       'beigey' : '#EEE6DC'
     },
-    extend: {},
+    extend: {
+      fontFamily :  {
+        helv : 'Helvetica, Arial, sans-serif',
+        scripty : ['scripty', 'serif']
+      }
+    },
   },
   plugins: [],
 }
