@@ -11,19 +11,21 @@ export default function MobileNav () {
     }
 
     return(
-        <div className="bg-darkO h-16 block md:hidden">
-            <div className="flex items-center h-full" 
-            onClick={handleMenu}>
+        <div className="bg-darkO py-2 block md:hidden">
+            <div 
+                className="flex items-center h-full" 
+                onClick={handleMenu}>
                 <FontAwesomeIcon className="p-2" icon={faBars} size="xl"/>
             </div>
 
         { open? 
-        <div className="w-screen bg-darkO  items-center justify-center">
+        <div className="w-screen  bg-darkO  items-center justify-center ">
             <div className="p-2"><a className=" text-xl" href="/about" alt="">US</a></div>
             <div className="p-2"><a className=" text-xl" href="/timeline" alt="">THE TIMELINE</a></div>
             <div className="p-2"><a className=" text-xl" href="/bridalparty">THE BRIDAL PARTY</a></div>
         </div> 
-        : <></>}
+        : 
+        <div></div> }
 
         </div>
     )
