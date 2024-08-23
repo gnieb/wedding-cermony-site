@@ -11,8 +11,8 @@ export default function MobileNav () {
     }
 
     return(
-        <div className="bg-darkO block md:hidden">
-            <div className="" 
+        <div className="bg-darkO h-16 block md:hidden">
+            <div className="flex items-center h-full" 
             onClick={handleMenu}>
                 <FontAwesomeIcon className="p-2" icon={faBars} size="xl"/>
             </div>

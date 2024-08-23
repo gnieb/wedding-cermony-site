@@ -1,7 +1,8 @@
 export default function BridalParty () {
     return(
         <div className="sm:flex font-serif sm:m-0 mx-auto">
-            <div className="p-5 text-4xl text-center">
+            <div className="p-5 text-5xl text-center">THE BRIDAL PARTY</div>
+            <div className="p-5 text-3xl text-center">
                 <div>Morgan O'Shea</div>
                 <div>Abby Knowlton</div>
                 <div>Sarah Alvarado</div>
@@ -12,7 +13,7 @@ export default function BridalParty () {
                 <div>Isabelle Consul</div>
                 <div>Jacquelyn Diaz</div>
             </div>
-            <div className="p-5 text-4xl text-center">
+            <div className="p-5 py-10 text-3xl text-center">
                 <div>Sam McClarin</div>
                 <div>Noah Bixby</div>
                 <div>Gage Forster</div>
