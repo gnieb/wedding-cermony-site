@@ -32,7 +32,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-beigey w-screen h-full min-h-screen">
       <Nav />
       <MobileNav />
       <RouterProvider router={router} />

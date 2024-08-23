@@ -3,7 +3,7 @@
 
 export const Nav = () => {
     return (
-        <div className="hidden w-screen h-10 bg-darkO md:flex items-center flex-wrap justify-between">
+        <div className="hidden font-bold w-screen h-10 bg-darkO md:flex items-center flex-wrap justify-between">
             <div >
                 <a className="m-5"  alt="" href="/about">Us</a>
                 

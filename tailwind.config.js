@@ -2,16 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    colors : {
-      'lightO': '#CD632E',
-      'darkO' : '#8C391E',
-      'beigey' : '#EEE6DC'
-    },
+    
     extend: {
       fontFamily :  {
         helv : 'Helvetica, Arial, sans-serif',
         scripty : ['scripty', 'serif']
-      }
+      },
+      colors : {
+      'lightO': '#CD632E',
+      'darkO' : '#8C391E',
+      'beigey' : '#EEE6DC'
+    },
     },
   },
   plugins: [],
