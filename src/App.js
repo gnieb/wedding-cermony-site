@@ -11,6 +11,7 @@ import {
 // import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import "../src/fonts/AnethaFaithSignaturecopy.otf"
+import Timeline from "./pages/Timeline";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/bridalparty",
     element: <BridalParty />
+  },
+  {
+    path: "/timeline",
+    element: <Timeline />
   }
 ]);
 
