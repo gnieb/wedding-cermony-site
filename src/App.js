@@ -12,6 +12,7 @@ import {
 import ErrorPage from "./error-page";
 import "../src/fonts/AnethaFaithSignaturecopy.otf"
 import Timeline from "./pages/Timeline";
+import Ceremony from "./pages/Ceremony";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/timeline",
     element: <Timeline />
+  },
+  {
+    path: '/ceremony',
+    element: <Ceremony />
   }
 ]);
 

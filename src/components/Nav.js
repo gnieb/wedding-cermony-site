@@ -9,6 +9,7 @@ export const Nav = () => {
                 
             </div>
             <div>
+                <a className="m-5" alt="" href="/ceremony">The Ceremony</a>
                 <a className="m-5" alt="" href="/timeline">The Timeline</a>
                 <a className="m-5" alt="" href="/bridalparty">The Bridal Party</a>
             </div>
