@@ -1,6 +1,6 @@
 export default function Ceremony () {
     return(
-        <div>
+        <div className='mx-auto'>
             <div className="pt-10 w-full font-bold text-4xl flex justify-center items-center">THE CEREMONY</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center">Chapel Hill</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center">1:30 PM</div>

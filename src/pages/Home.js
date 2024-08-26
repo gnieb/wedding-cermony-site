@@ -3,6 +3,7 @@
 import "../fonts/AnethaFaithSignaturecopy.otf"
 import "../index.css";
 import us1 from '../photos/us1.jpg'
+import Timeline from "./Timeline";
 
 console.log(us1)
 
@@ -16,6 +17,9 @@ export const Home = () => {
             <div className="absolute top-44 sm:top-28 lg:top-40 z-10 w-screen font-scripty text-6xl sm:text-7xl md:text-8xl  lg:text-9xl">THE MCCLARINS</div>
             <div className="w-1/2 absolute z-20 right-10 top-20 ">
                 <img src={us1} alt="us" />
+            </div>
+            <div className="flex justify-center items-center absolute bottom-32">
+                <Timeline />
             </div>
         </div>
     )
