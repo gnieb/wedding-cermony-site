@@ -1,6 +1,7 @@
 export default function Timeline () {
     return(
-        <div>
+        
+        <div className="">
             <div className="pt-10 w-full font-bold text-4xl flex justify-center items-center">The McClarins</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center">10.05.2024</div>
             {/* Event Timeline */}
