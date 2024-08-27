@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+body {
+  background-color: #EEE6DC;
+}
+
+
 @font-face {
     font-family: "scripty";
     src: url("./fonts/AnethaFaithSignaturecopy.otf") format("otf");
