@@ -18,7 +18,7 @@ export default function Timeline () {
             <div>
                 <div className="flex pt-10 font-bold text-2xl w-full justify-start">SOCIAL HOUR</div>
                 <div className="flex justify-start items-center">
-                    <div className="text-xl">
+                    <div className="sm:text-xl">
                         <p>The Greenhouse at the Port of Rochester</p>
                         <p>3:30 PM</p>
                     </div>
@@ -28,7 +28,7 @@ export default function Timeline () {
             <div>
                 <div className="flex pt-10 font-bold text-2xl w-full justify-start">RECEPTION</div>
                 <div className="flex justify-start items-center ">
-                    <div className="text-xl">
+                    <div className="sm:text-xl">
                         <p>The Greenhouse at the Port of Rochester</p>
                         <p>5:30 PM</p>
                     </div>
