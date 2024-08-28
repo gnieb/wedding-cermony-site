@@ -2,7 +2,7 @@ export default function Timeline () {
     return(
         
         <div className="">
-            <div className="pt-10 w-full font-bold text-4xl flex justify-start  items-center">10.05.2024</div>
+            <div className="sm:pt-10 pt-32 w-full font-bold text-4xl flex justify-start  items-center">10.05.2024</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center"></div>
             {/* Event Timeline */}
             <div>
