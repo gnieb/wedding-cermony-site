@@ -30,7 +30,7 @@ const router = createBrowserRouter([
     element: <BridalParty />
   },
   {
-    path: "/timeline",
+    path: "/faqs",
     element: <Timeline />
   },
   {

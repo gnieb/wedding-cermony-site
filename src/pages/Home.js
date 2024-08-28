@@ -14,11 +14,11 @@ export const Home = () => {
     return(
         <div className="w-screen">
             <div className="relative w-screen h-3/4">
-                <div className="z-40 relative w-screen font-scripty text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+                <div className="z-40 relative w-screen font-scripty text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                     THE MCCLARINS
                 </div>
             
-                <div className=" z-10  font-scripty text-6xl sm:text-7xl md:text-8xl  lg:text-9xl">
+                <div className=" z-10  font-scripty text-5xl sm:text-7xl md:text-8xl  lg:text-9xl">
                     THE MCCLARINS
                 </div>
                 <div className="w-1/2 absolute z-30 right-10 top-10 ">
