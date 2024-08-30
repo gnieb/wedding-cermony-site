@@ -5,8 +5,9 @@ module.exports = {
     
     extend: {
       fontFamily :  {
-        helv : 'Helvetica, Arial, sans-serif',
-        scripty : ['scripty', 'serif']
+        helv : ['Helvetica, Arial, sans-serif'],
+        scripty : ['scripty', 'serif'],
+        anetha : ['anetha', 'serif'],
       },
       colors : {
       'lightO': '#CD632E',

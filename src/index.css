@@ -9,18 +9,17 @@ body {
 
 
 @font-face {
+    font-family: "anetha";
+    /* font-weight: 400; */
+    src: url("./fonts/AnethaFaithSignatureReg.ttf");
+  }
+
+@font-face {
     font-family: "scripty";
     src: url("./fonts/AnethaFaithSignaturecopy.otf") format("otf");
 }
 
-/* @layer base {
-    @font-face {
-      font-family: 'scripty';
-      font-style: normal;
-      font-weight: 400;
-      /* font-display: swap; */
-      /* src: url(./fonts/AnethaFaithSignaturecopy.otf) format('otf');
-    }
-  } */ 
+
+
 
 

@@ -28,6 +28,7 @@ export const Home = () => {
             <div className="relative z-40 left-16 ">
                 <Timeline />
             </div>
+            <div className="text-4xl font-anetha">Enjoy!</div>
         </div>
     )
 };
