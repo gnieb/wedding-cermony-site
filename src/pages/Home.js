@@ -30,7 +30,7 @@ export const Home = () => {
                 <Timeline />
                 
             </div>
-            <div className="py-10 text-center text-8xl text-darkO font-anetha">Thank you for celebrating with us</div>
+            <div className="pb-10 md:py-10 text-center text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-darkO font-anetha">Thank you for celebrating with us</div>
         </div>
     )
 };
