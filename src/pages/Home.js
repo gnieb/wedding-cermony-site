@@ -26,9 +26,11 @@ export const Home = () => {
                 </div>
             </div>
             <div className="relative z-40 left-16 ">
+            <div className="text-7xl text-darkO font-anetha">Welcome to Our Wedding!</div>
                 <Timeline />
+                
             </div>
-            <div className="text-4xl font-anetha">Enjoy!</div>
+            <div className="py-10 text-center text-8xl text-darkO font-anetha">Thank you for celebrating with us</div>
         </div>
     )
 };
