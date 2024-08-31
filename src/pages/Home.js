@@ -13,17 +13,20 @@ export const Home = () => {
 
     return(
         <div className="w-screen">
-            <div className="relative w-screen h-3/4">
+            <div className="relative px-5 w-screen h-3/4">
+                <div className="z-40 pt-64 relative w-screen font-scripty text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
+                    THE 
+                </div>
                 <div className="z-40 relative w-screen font-scripty text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
-                    THE McCLARINS
+                    McCLARINS
                 </div>
         
-                <div className="w-1/2 absolute z-30 right-10 top-20 ">
+                <div className="w-1/2 absolute z-30 right-10 top-8 sm:top-20 ">
                     <img src={us1} alt="us" />
                 </div>
             </div>
             <div className="relative z-40 ">
-            <div className="text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
+            <div className="px-5 text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
                 <Timeline />
                 
             </div>

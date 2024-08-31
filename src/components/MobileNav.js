@@ -21,8 +21,6 @@ export default function MobileNav () {
         { open? 
         <div className="w-screen bg-darkO items-center justify-center ">
             <div className="p-2"><a className=" text-xl" href="/" alt="">10.05.2024</a></div>
-            <div className="p-2"><a className=" text-xl" href="/ceremony" alt="">THE CEREMONY</a></div>
-            <div className="p-2"><a className=" text-xl" href="/faqs" alt="">PARKING</a></div>
             <div className="p-2"><a className=" text-xl" href="/bridalparty">THE BRIDAL PARTY</a></div>
         </div> 
         : 
