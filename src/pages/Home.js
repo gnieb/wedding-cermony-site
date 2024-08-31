@@ -15,18 +15,15 @@ export const Home = () => {
         <div className="w-screen">
             <div className="relative w-screen h-3/4">
                 <div className="z-40 relative w-screen font-scripty text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
-                    THE MCCLARINS
+                    THE McCLARINS
                 </div>
-            
-                <div className=" z-10  font-scripty text-5xl sm:text-7xl md:text-8xl  lg:text-9xl">
-                    THE MCCLARINS
-                </div>
-                <div className="w-1/2 absolute z-30 right-10 top-10 ">
+        
+                <div className="w-1/2 absolute z-30 right-10 top-20 ">
                     <img src={us1} alt="us" />
                 </div>
             </div>
-            <div className="relative z-40 left-16 ">
-            <div className="text-7xl text-darkO font-anetha">Welcome to Our Wedding!</div>
+            <div className="relative z-40 ">
+            <div className="text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
                 <Timeline />
                 
             </div>

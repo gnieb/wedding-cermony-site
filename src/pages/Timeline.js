@@ -5,12 +5,12 @@ export default function Timeline () {
     return(
         
         <div className="">
-            <div className="sm:pt-10 pt-48 w-full font-bold text-4xl flex justify-start  items-center">10.05.2024</div>
+            <div className="sm:pt-10 pt-48 w-full font-bold text-4xl flex justify-center sm:justify-start items-center">10.05.2024</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center"></div>
             {/* Event Timeline */}
             <div>
-                <div className="flex pt-10 font-bold text-2xl justify-start ">THE CEREMONY</div>
-                <div className="flex justify-start items-center ">
+                <div className="flex pt-10 font-bold text-2xl justify-center ">THE CEREMONY</div>
+                <div className="flex justify-center text-center items-center ">
                     <div className="sm:text-xl">
                         <div className="flex">
                             <p className=""><FontAwesomeIcon icon={faLocationDot} /></p>
@@ -23,8 +23,8 @@ export default function Timeline () {
             </div>
 
             <div>
-                <div className="flex pt-10 font-bold text-2xl w-full justify-start">SOCIAL HOUR</div>
-                <div className="flex justify-start items-center">
+                <div className="flex pt-10 font-bold text-2xl w-full justify-center">SOCIAL HOUR</div>
+                <div className="flex justify-center text-center items-center">
                     <div className="sm:text-xl">
                         <div className="flex">
                             <p className=""><FontAwesomeIcon icon={faLocationDot} /></p>
@@ -37,8 +37,8 @@ export default function Timeline () {
             </div>
 
             <div className="py-10">
-                <div className="flex font-bold text-2xl w-full justify-start">RECEPTION</div>
-                <div className="flex justify-start items-center ">
+                <div className="flex font-bold text-2xl w-full justify-center">RECEPTION</div>
+                <div className="flex justify-center text-center items-center ">
                     <div className="sm:text-xl">
                         <div className="flex">
                             <p className=""><FontAwesomeIcon icon={faLocationDot} /></p>
