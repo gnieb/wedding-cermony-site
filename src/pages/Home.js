@@ -30,9 +30,11 @@ export const Home = () => {
             <div className="px-5 text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
                 <Timeline />
             </div>
-
-            <BridalParty />
-
+            <div 
+            id="bridalparty"
+            className="pt-14">
+                <BridalParty />
+            </div>
             <div className="pb-10 md:py-10 text-center text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-darkO font-anetha">Thank you for celebrating with us</div>
         </div>
     )

@@ -10,14 +10,14 @@ export default function MobileNav () {
     return(
         <div className=" p-2 block relative md:hidden">
             <div 
-                className="flex fixed top-2 text-sm font-bold items-center m-1" 
+                className="flex z-50 fixed top-2 text-sm font-bold items-center " 
                 >
                <a
-                className="bg-darkO  rounded-full p-2"
-                href="/#bridalparty" >CEREMONY</a>
+                className="bg-darkO text-xs rounded-full p-2"
+                href="/#ceremony" >CEREMONY</a>
             </div>
             <div 
-                className="flex fixed top-12 text-sm font-bold items-center m-1" 
+                className="flex fixed text-xs z-50 top-10 font-bold items-center" 
                 >
                <a
                 className="bg-darkO rounded-full p-2"
