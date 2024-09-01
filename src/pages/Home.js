@@ -5,6 +5,7 @@ import "../index.css";
 import us1 from '../photos/us1.jpg'
 import Timeline from "./Timeline";
 import BridalParty from "./BridalParty";
+import Ceremony from "./Ceremony";
 
 // console.log(us1)
 
@@ -31,8 +32,13 @@ export const Home = () => {
                 <Timeline />
             </div>
             <div 
+            id="ceremony"
+            className="pt-20">
+                <Ceremony />
+            </div>
+            <div 
             id="bridalparty"
-            className="pt-14">
+            className="pt-20">
                 <BridalParty />
             </div>
             <div className="pb-10 md:py-10 text-center text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-darkO font-anetha">Thank you for celebrating with us</div>
