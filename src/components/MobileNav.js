@@ -5,26 +5,26 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function MobileNav () {
-    const [open, setOpen] = useState(false)
-    const handleMenu = () => {
-        setOpen(!open)
-    }
+    // const [open, setOpen] = useState(false)
+    // const handleMenu = () => {
+    //     setOpen(!open)
+    // }
 
     return(
-        <div className="bg-darkO py-2 block md:hidden">
+        <div className=" py-2 block md:hidden">
             <div 
                 className="flex items-center h-full" 
-                onClick={handleMenu}>
+                >
                 <FontAwesomeIcon className="p-2" icon={faBars} size="xl"/>
             </div>
 
-        { open? 
-        <div className="w-screen bg-darkO items-center justify-center ">
+        {/* { open? 
+        <div className="items-center justify-center ">
             <div className="p-2"><a className=" text-xl" href="/" alt="">10.05.2024</a></div>
             <div className="p-2"><a className=" text-xl" href="/bridalparty">THE BRIDAL PARTY</a></div>
         </div> 
         : 
-        <div></div> }
+        <div></div> } */}
 
         </div>
     )
