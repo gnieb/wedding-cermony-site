@@ -1,30 +1,28 @@
-import { useState } from "react";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 
 export default function MobileNav () {
-    // const [open, setOpen] = useState(false)
-    // const handleMenu = () => {
-    //     setOpen(!open)
-    // }
+
 
     return(
-        <div className=" py-2 block md:hidden">
+        <div className=" p-2 block relative md:hidden">
             <div 
-                className="flex items-center h-full" 
+                className="flex fixed top-2 text-sm font-bold items-center m-1" 
                 >
-                <FontAwesomeIcon className="p-2" icon={faBars} size="xl"/>
+               <a
+                className="bg-darkO  rounded-full p-2"
+                href="/#bridalparty" >CEREMONY</a>
             </div>
-
-        {/* { open? 
-        <div className="items-center justify-center ">
-            <div className="p-2"><a className=" text-xl" href="/" alt="">10.05.2024</a></div>
-            <div className="p-2"><a className=" text-xl" href="/bridalparty">THE BRIDAL PARTY</a></div>
-        </div> 
-        : 
-        <div></div> } */}
+            <div 
+                className="flex fixed top-12 text-sm font-bold items-center m-1" 
+                >
+               <a
+                className="bg-darkO rounded-full p-2"
+                href="/#bridalparty" >BRIDAL PARTY</a>
+            </div>
 
         </div>
     )
