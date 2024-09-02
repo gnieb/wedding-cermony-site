@@ -3,7 +3,7 @@
 import "../fonts/AnethaFaithSignaturecopy.otf"
 import "../index.css";
 import us1 from '../photos/us1.jpg'
-import Timeline from "./Timeline";
+// import Timeline from "./Timeline";
 import BridalParty from "./BridalParty";
 import Timeline2 from "./Timeline2.0";
 
@@ -37,11 +37,11 @@ export const Home = () => {
                 <Timeline2 />
             </div>
 
-            <div 
+            {/* <div 
             id="timeline"
             className="pt-20">
                 <Timeline />
-            </div>
+            </div> */}
             
             <div 
             id="bridalparty"
