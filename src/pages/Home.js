@@ -28,12 +28,12 @@ export const Home = () => {
                     <img src={us1} alt="us" />
                 </div>
             </div>
-            <div id="timeline" className="relative z-40 ">
+            <div  className="relative z-40 ">
             <div className="px-5 text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
                 
             </div>
 
-            <div>
+            <div id="timeline" className="pt-10 sm:pt-72">
                 <Timeline2 />
             </div>
 
