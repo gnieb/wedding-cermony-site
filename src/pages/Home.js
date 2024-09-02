@@ -5,7 +5,7 @@ import "../index.css";
 import us1 from '../photos/us1.jpg'
 import Timeline from "./Timeline";
 import BridalParty from "./BridalParty";
-import Ceremony from "./Ceremony";
+
 
 // console.log(us1)
 
@@ -29,6 +29,12 @@ export const Home = () => {
             </div>
             <div id="timeline" className="relative z-40 ">
             <div className="px-5 text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
+                
+            </div>
+
+            <div 
+            id="timeline"
+            className="pt-20">
                 <Timeline />
             </div>
             
