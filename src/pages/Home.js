@@ -27,15 +27,11 @@ export const Home = () => {
                     <img src={us1} alt="us" />
                 </div>
             </div>
-            <div className="relative z-40 ">
+            <div id="timeline" className="relative z-40 ">
             <div className="px-5 text-4xl sm:text-7xl text-darkO font-bold font-anetha">Welcome to Our Wedding!</div>
                 <Timeline />
             </div>
-            <div 
-            id="ceremony"
-            className="pt-20">
-                <Ceremony />
-            </div>
+            
             <div 
             id="bridalparty"
             className="pt-20">

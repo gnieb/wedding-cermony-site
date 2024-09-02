@@ -1,14 +1,15 @@
 export default function Ceremony () {
     return(
         <div className="m-5">
-            <div className="sm:pt-10 pt-8 w-full font-bold text-4xl flex justify-center sm:justify-start items-center">10.05.2024</div>
+            <div className="sm:pt-10 pt-8 w-full text-5xl flex font-serif "></div>
+            <div className="w-full text-5xl flex font-serif ">CEREMONY PROGRAM</div>
             <div className=" font-serif w-full text-2xl flex justify-center items-center"></div>
             <div>
-                <div className="flex pt-10 font-bold text-2xl justify-center ">THE CEREMONY</div>
+                <div className="flex pt-10 font-bold text-2xl justify-center ">CEREMONY</div>
                 <div className="flex justify-center text-center items-center ">
                     <div className="sm:text-xl">
                         <div className="flex">
-                            <p className="px-2 text-base lg:text-xl">Chapel Hill</p>
+                            <p className="px-2 text-base lg:text-xl">Officiant, Charlie Pilger</p>
                         </div>
                         
                         <p>1:30 PM</p>
