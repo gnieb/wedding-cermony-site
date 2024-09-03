@@ -67,7 +67,9 @@ export default function Timeline2 () {
                         </div>
                         <div className="text-lg ">
                             <p className="mt-10">3:30 PM</p>
-                            <p className="mt-2">SOCIAL HOUR</p>
+                            <p className="mt-2 ">SOCIAL HOUR</p>
+                            <p className="mt-2 text-base">The Greenhouse at the Port of Rochester</p>
+                            <p className="text-base">1000 N. River Street, Rochester, NY 14612</p>
                         </div>
                     </li>
 
