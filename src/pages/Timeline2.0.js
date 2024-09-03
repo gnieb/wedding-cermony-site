@@ -120,7 +120,7 @@ export default function Timeline2 () {
 
                         </div>
                         <div className="text-lg ">
-                            <p className="mt-10">7:30 PM</p>
+                            <p className="mt-10">7:00 PM</p>
                             <p className="mt-2">DESSERT SERVED</p>
                         </div>
                     </li>
