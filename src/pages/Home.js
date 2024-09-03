@@ -33,7 +33,7 @@ export const Home = () => {
                 
             </div>
 
-            <div id="timeline" className="pt-10 sm:pt-72">
+            <div id="timeline" className="pt-10 sm:pt-[200px] lg:pt-[400px] xl:pt-[500px]">
                 <Timeline2 />
             </div>
 
