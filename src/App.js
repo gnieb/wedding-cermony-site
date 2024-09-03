@@ -30,7 +30,7 @@ const router = createBrowserRouter([
     element: <BridalParty />
   },
   {
-    path: "/faqs",
+    path: "/reacthookform",
     element: <Timeline />
   },
   {
