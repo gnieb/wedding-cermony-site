@@ -15,7 +15,7 @@ export default function BridalParty () {
                     <div>Abby Knowlton</div>
                     <div>Sarah Alvarado</div>
                     <div>Paige Bixby</div>
-                    <div>McKenzie Fiege</div>
+                    <div>McKenzie Kidd</div>
                     <div>Heather Boss</div>
                     <div>Emma Eich</div>
                     <div>Isabelle Consul</div>
