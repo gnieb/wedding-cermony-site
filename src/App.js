@@ -8,20 +8,20 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-// import Root from "./routes/root";
+
 import ErrorPage from "./error-page";
 import "../src/fonts/AnethaFaithSignaturecopy.otf"
-import Timeline from "./pages/Timeline";
+
 import Ceremony from "./pages/Ceremony";
+import ReactHookForm from "./pages/ReactHookForm";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <ErrorPage />,
-
-  },
-  {
+    children : [
+       {
     path: "/aboutus",
     element: <Us />
   },
@@ -31,12 +31,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/reacthookform",
-    element: <Timeline />
+    element: <ReactHookForm />
   },
   {
     path: '/ceremony',
     element: <Ceremony />
   }
+    ]
+  },
+ 
 ]);
 
 
