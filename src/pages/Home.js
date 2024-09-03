@@ -1,14 +1,10 @@
-// import { useState } from "react";
-// import "./src/fonts/AnethaFaithSignaturecopy.otf"
 import "../fonts/AnethaFaithSignaturecopy.otf"
 import "../index.css";
 import us1 from '../photos/us1.jpg'
-// import Timeline from "./Timeline";
 import BridalParty from "./BridalParty";
 import Timeline2 from "./Timeline2.0";
 
 
-// console.log(us1)
 
 
 
