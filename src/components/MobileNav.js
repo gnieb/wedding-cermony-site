@@ -16,7 +16,7 @@ export default function MobileNav () {
                 href="/#timeline" >TIMELINE</a>
             </div>
             <div 
-                className="flex fixed text-xs z-50 top-10 font-bold items-center" 
+                className="flex fixed text-xs z-50 top-[40px] font-bold items-center" 
                 >
                <a
                 className="bg-darkO rounded-full p-2"
